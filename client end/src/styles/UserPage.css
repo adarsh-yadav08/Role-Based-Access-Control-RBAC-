@@ -1,0 +1,49 @@
+/* Basic styling for the UserPage */
+.user-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling for the welcome message */
+  .welcome-message {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the logout button */
+  .logout-button {
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #d43f1f;
+  }
+  
+  /* Styling for responsiveness */
+  @media (max-width: 600px) {
+    .user-page {
+      padding: 20px;
+    }
+  
+    .welcome-message {
+      font-size: 1.5rem;
+    }
+  
+    .logout-button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }  

@@ -1,0 +1,62 @@
+/* Login Form Styles */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 250px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.login-form button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px; /* Adds space between the buttons */
+}
+
+.login-form button:hover {
+  background-color: #45a049;
+}
+
+/* Google Login Button Styles */
+.google-login-btn {
+  padding: 10px;
+  background-color: #4285F4; /* Google Blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.google-login-btn:hover {
+  background-color: #357ae8;
+}
+
+.google-login-btn img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
